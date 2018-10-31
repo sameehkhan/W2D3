@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: yellow;
+}
+
+header > img { 
+    width: 100px;
+}
+
+h1 {
+font-size: 38px;
+}
+
+h2 {
+font-size: 32px;
+}
+
+.ingredients-list {
+    list-style:square;; /* there are many color names */
+}
+
+
+ol {
+  list-style: circle;
+}
+
+
+
+ul li a {
+    text-decoration: none; /* This assures the a elements are not underlined */
+    color: inherit;
+}
+
