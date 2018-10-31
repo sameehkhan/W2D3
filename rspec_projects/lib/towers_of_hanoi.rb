@@ -22,9 +22,9 @@ class TowersOfHanoi
   
   
   def display 
-    p "Tower 1: #{@arr[0]}"
-    p "Tower 2: #{@arr[1]}"
-    p "Tower 3: #{@arr[2]}"
+    p "Tower 0: #{@arr[0]}"
+    p "Tower 1: #{@arr[1]}"
+    p "Tower 2: #{@arr[2]}"
   end 
   
   def move(from_tower, to_tower) 
@@ -39,7 +39,7 @@ class TowersOfHanoi
       if valid_move?(prompt)
         move(prompt[0], prompt[1])
       else
-        "That's an invalid move."
+        puts "That's an invalid move."
       end
     end 
     puts "Congrats, game over."
