@@ -20,7 +20,7 @@ class Deck
   private
   def setup_deck
     symbol = ['heart', 'spade', 'clover', 'diamond']
-    cards = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+    cards = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
     
     symbol.each do |sym|
       cards.each do |card|
